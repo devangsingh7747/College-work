@@ -18,12 +18,34 @@
 
 
 
-public class aaps1 {
-    public static void main(String[] args) {
-        int x = 5;
-        while (x++ <= 7) {
+// public class aaps1 {
+//     public static void main(String[] args) {
+//         int x = 5;
+//         while (x++ <= 7) {
             
-        }
-        System.out.println(x);
+//         }
+//         System.out.println(x);
+//     }
+// }
+
+
+
+// #include <stdio.h> 
+// void main() 
+// { 
+// int i=1; 
+// do{ 
+// while(i++<1); 
+// }while(i++<=2); 
+// printf("%d",i); 
+// }
+
+public class aaps1 {
+    public static void main(String args[]) {
+        int i=1;
+        do { 
+            while(i++<1);
+        } while(i++<=2);
+        System.out.print(i);
     }
 }
