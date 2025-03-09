@@ -30,22 +30,54 @@
 
 
 
-// #include <stdio.h> 
-// void main() 
-// { 
-// int i=1; 
-// do{ 
-// while(i++<1); 
-// }while(i++<=2); 
-// printf("%d",i); 
+
+// public class aaps1 {
+//     public static void main(String args[]) {
+//         int i=1;
+//         do { 
+//             while(i++<1);
+//         } while(i++<=2);
+//         System.out.print(i);
+//     }
 // }
 
+
+
+
+// public class aaps1 {
+//     public static void main(String[] args) {
+//         int i = 0, j;
+
+//         while (i < 3) {
+//             j = 0;
+
+//             while (j < 2) {
+//                 if (i == 1 && j == 1) {
+//                     break;
+//                 }
+
+//                 System.out.println("i = " + i + ", j = " + j);
+
+//                 j++;
+//             }
+
+//             i++;
+//         }
+//     }
+// }
+
+
+
+
 public class aaps1 {
-    public static void main(String args[]) {
-        int i=1;
-        do { 
-            while(i++<1);
-        } while(i++<=2);
-        System.out.print(i);
+    public static void main(String[] args) {
+        for (int i = 0; i < 10; i++) {
+            
+            if (i == 3 || i == 6) {
+                continue;
+            }
+
+            System.out.print(i + " ");
+        }
     }
 }
